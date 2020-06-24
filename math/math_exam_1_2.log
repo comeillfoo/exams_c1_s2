@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  19 JUN 2020 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  25 JUN 2020 01:15
 entering extended mode
 **./math_exam_1_2.tex
 (math_exam_1_2.tex
@@ -363,20 +363,20 @@ LaTeX Info: Redefining \] on input line 2856.
 ) (math_exam_1_2.aux)
 \openout1 = `math_exam_1_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (C:\Utils\MikTeX\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -384,25 +384,25 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 (C:\Utils\MikTeX\tex/latex/ucs\uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
 
 
 (C:\Utils\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
 
 
 (C:\Utils\MikTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1748) in paragraph at lines 25--27
+Underfull \hbox (badness 1748) in paragraph at lines 26--28
 \T2A/cmr/m/n/10.95 С геометрической точки зрения неопределенный интеграл предст
 авляет собой однопараметрическое
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 64--66
+Underfull \hbox (badness 3769) in paragraph at lines 65--67
 \T2A/cmr/m/n/10.95 называется \T2A/cmr/m/it/10.95 формулой интегрирования по ча
 стям\T2A/cmr/m/n/10.95 . Эта формула получается из формулы
  []
@@ -410,15 +410,22 @@ Underfull \hbox (badness 3769) in paragraph at lines 64--66
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 []\T2A/cmr/m/n/10.95 Интегралы вида $[] []$, $[] []$, $[] []$, $[] []$,
  []
 
-[2] [3] (math_exam_1_2.aux) ) 
+[2] [3]
+Overfull \hbox (7.06459pt too wide) detected at line 188
+\OML/cmm/m/it/10.95 F[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/
+10.95 ) = [] [] = [] [] = [] [] = [] [] = \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.
+95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )
+ []
+
+[4] [5] (math_exam_1_2.aux) ) 
 Here is how much of TeX's memory you used:
  3776 strings out of 492450
  43282 string characters out of 3135328
- 120123 words of memory out of 3000000
+ 123123 words of memory out of 3000000
  8114 multiletter control sequences out of 15000+200000
  14029 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -437,9 +444,9 @@ amsfonts/cm/cmr8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Utils/MikTeX/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on math_exam_1_2.pdf (3 pages, 165953 bytes).
+Output written on math_exam_1_2.pdf (5 pages, 190320 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 261 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

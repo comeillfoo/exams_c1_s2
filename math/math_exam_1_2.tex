@@ -117,4 +117,93 @@
 		= \frac{A}{2}\ln{x^2 + px + q} + \left(B - \frac{Ap}{2}\right)\int{\frac{d\left(x + \frac{p}{2}\right)}{(x + \frac{p}{2})^2 + q - \frac{p^2}{4}}} =\\
 		= \frac{A}{2}\ln{x^2 + px + q} + \left(B - \frac{Ap}{2}\right)\frac{1}{\sqrt{q - \frac{p^2}{4}}}\arctan\frac{2x + p}{\sqrt{4q - p^2}} + C.
 	\end{align*}
+	\section{Рекуррентная формула для 4 типа простейших}
+	\begin{enumerate}
+		\item Выделим в числителе производную квадратного трехчлена $x^2 + px + q,$ получим
+		$$
+			\frac{M}{2}\int\frac{(2x + p)dx}{(x^2 + px + q)^n} + \left(N - \frac{Mp}{2}\right)\int\frac{dx}{\left(\left(s + \frac{p}{2}\right)^2 + q - \frac{p^2}{4}\right)^n}.
+		$$
+		\item Первый интеграл $\int\frac{(2x + p)dx}{(x^2 + px + q)^n} = \frac{1}{(1 - n)(x^2 + px + q)^{n - 1}}$.
+		\item Во втором интеграле введем подстановку $x + \frac{p}{2} = t$ и, обозначив $q - \frac{p^2}{4} = a^2$, приведем его к виду
+		$$
+			\int\frac{dt}{(t^2 + a^2)^n} = \frac{1}{a^2}\int\frac{t^2 + a^2 - t^2}{(t^2 + a^2)^n}dt = \frac{1}{a^2}\int\frac{dt}{(t^2 + a^2)^{n-1}}-\frac{1}{a^2}\int\frac{t^2dt}{(t^2 + a^2)^n}.
+		$$
+		\item Интегрирование $\int\frac{t^2dt}{(t^2 + a^2)^n}$ выполняется по частям. При $u = t, dv = \frac{tdt}{(t^2 + a^2)^n}$ будем иметь
+		$$
+			\int\frac{t^2dt}{(t^2 + a^2)^n} = \frac{1}{2}\frac{t}{(1 - n)(t^2 + a^2)^{n - 1}} - \frac{1}{2(1 - n)}\int\frac{dt}{(t^2 + a^2)^{n - 1}}
+		$$
+		\item Если обозначить $I_n = \int\frac{dt}{(t^2 + a^2)^n},$ то после простых преобразований получим формулу
+		$$
+			I_n = \frac{1}{2(n - 1)a^2}\cdot\frac{t}{(t^2 + a^2)^{n - 1}} + \frac{2n - 3}{2n - 2}\cdot\frac{1}{a^2}I_{n - 1}.
+		$$
+		\item Выражаем по такой же формуле $I_{n-1}$ через $I_{n - 1}, I_{n - 2}$ через $I_{n - 3}$ и т.д. Процесс продолжаем до тех пор, пока не дойдем до интеграла
+		$$
+			I_1 = \int\frac{dt}{t^2 + a^2} = \frac{1}{a}\arctg\frac{t}{a} + C.
+		$$
+		Формула для вычисления $I_n$ называется \textit{рекуррентной} (возвратной) формулой. Название объясняется тем, что для вычисления $I_n$ приходится возвращаться к $I_{n - 1},$ от него ~--- к $I_{n - 2}$ и т.д.
+	\end{enumerate}
+	\section{Определенный интеграл и его свойства}
+	Пусть функция $f(x)$ определена на отрезке $[a, b]$ и $F(x)$ ~--- ее первообразная. Положим
+	$$
+		\int\limits_a^b f(x)dx = \left. F(x)\right|_a^b
+	$$
+	Выражение, стоящее в левой части формулы, называется \textit{определенным интегралом} от функции f по отрезку $[a, b]$, а числа $a$ и $b$ называются \textit{пределами интегрирования}.
+	\begin{enumerate}
+		\item Интеграл с одинаковыми пределами равен нулю: $\int\limits_a^a f(x)dx = 0$.
+		$$
+			\int\limits_a^b dx = b - a
+		$$
+		\item При перестановке пределов изменяется знак интеграла:
+		$$
+			\int\limits_a^b f(x) dx = -\int\limits_b^a f(x) dx.
+		$$
+		Постоянный множитель можно выносить за знак интеграла:
+		$$
+			\int\limits_a^b cf(x) dx = c\int\limits_a^b f(x) dx, c = const.
+		$$
+		Интеграл от суммы равен сумме интегралов от всех слагаемых:
+		$$
+			\int\limits_a^b (f_1(x)\pm f_2(x)\pm\ldots\pm f_n(x))dx = \int\limits_a^b f_1(x)dx\pm\int\limits_a^b f_2(x)dx\pm\ldots\pm\int\limits_a^b f_n(x)dx.
+		$$
+		\item Отрезок интегрирования можно разбивать на части:
+		$$
+			\int\limits_a^b f(x) dx = \int\limits_a^c f(x) dx + \int\limits_c^b f(x) dx.
+		$$
+		\item Если $f(x) \ge 0 \forall x\in [a, b], a < b, \text{то} \int\limits_a^b f(x) dx \ge 0.$
+		\item Если $f(x) \ge\varphi (x) \forall x\in [a, b], a < b, \text{то} \int\limits_a^b f(x) dx \ge\int\limits_a^b\varphi (x) dx$.
+		\item Если $m$ и $M$ ~--- соответственно наименьшее и наибольшее значения функции $f(x)$, непрерывной на отрезке $[a, b]$, то считая $a < b$, получим
+		$$
+			m(b - a)\le\int\limits_a^b f(x) dx \le M(b - a)
+		$$
+		\item Если функция $f(x)$ непрерывна на отрезке $[a, b]$, то существует такая точка $\xi\in [a, b]$, что
+		$$
+			\int\limits_a^b f(x) dx = f(\xi )(b - a).
+		$$
+	\end{enumerate}
+	\section{Производная от интеграла с переменным верхним пределом}
+	\paragraph{Теорема Барроу}
+	Пусть $f\in \mathbb{R}(a, b)$ и непрерывна в $x_0\in (a, b)$. Тогда $F$ дифференцируема в этой точке и ее производная равна $F'(x_0) = f(x_0)$.
+	$$
+		F'(x_0) = \lim\limits_{\Delta x\to 0}\frac{F(x_0 + \Delta x) - F(x_0)}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{\int\limits_{x_0}^{x_0 + \Delta x}f(x) dt - \int\limits_a^{x_0} f(t) dt}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{\int_x^{\Delta x} f(t) dt}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{f(x_0) \Delta x}{\Delta x} = f(x_0)
+	$$
+	\section{Формула Ньютона-Лейбница}
+	$$
+		\int\limits_a^b f(x)dx = \left. F(x)\right|_a^b = F(b) - F(a)
+	$$
+	Формула выше называется \textit{формулой Ньютона-Лейбница}.
+	\section{Площадь криволинейной трапеции}
+	Пусть на отрезке $[a, b], a < b$ задана непрерывная неотрицательная функция $f(x)$.
+	Тогда площадь $S$ фигуры, ограниченной осью абсцисс, прямыми $x = a, x = b$ и графиком функции $y = f(x)$ вычисляется по формуле.
+	$$
+		S = \int\limits_a^b f(x) dx.
+	$$
+	Эта фигура называется \textit{криволинейной трапецией}.
+	Если на отрезке $[a, b]$ заданы две непрерывные функции $f(x)$ и $g(x)$, причем $f(x) < g(x)$, при $x \in [a, b]$, то площадь $S$ фигуры, ограниченной прямыми $x = a, x = b$ и линиями $y = f(x), y = g(x)$ вычисляется по формуле
+	$$
+		S = \int\limits^b_a [f(x) - g(x)] dx
+	$$
+	Площадь $S$ криволинейного сектора, ограниченного лучами $\varphi = \alpha, \varphi = \beta (\alpha < \beta)$ и кривой, заданной уравнением в полярных координатах $\rho = g(\varphi )$, находится из равенства
+	$$
+		S = \frac{1}{2}\int\limits^\beta_\alpha \rho ^2 d\varphi = \frac{1}{2}\int\limits^\beta_\alpha (g(\varphi ))^2 d\varphi
+	$$
 \end{document}
