@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  20 JUN 2020 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  28 JUN 2020 14:10
 entering extended mode
 **./cpb_exam_1_2.tex
 (cpb_exam_1_2.tex
@@ -507,27 +507,38 @@ Underfull \hbox (badness 1769) in paragraph at lines 39--40
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] (cpb_exam_1_2.aux) ) 
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Overfull \hbox (22.91254pt too wide) in paragraph at lines 84--102
+[][] 
+ []
+
+[3] [4]
+Underfull \hbox (badness 1337) in paragraph at lines 119--120
+\T2A/cmr/bx/n/10.95 файла\T2A/cmr/m/n/10.95 , которые идентифицирует файл при п
+оследующих вызовах (к слову, дескрипторы 0, 1, 2
+ []
+
+[5] (cpb_exam_1_2.aux) ) 
 Here is how much of TeX's memory you used:
  5053 strings out of 492450
  61568 string characters out of 3135328
- 141111 words of memory out of 3000000
+ 143111 words of memory out of 3000000
  9324 multiletter control sequences out of 15000+200000
  13152 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,32p,2092b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
- 
-<C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi60
-0\larm1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk><C:/Utils/MikTeX/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Utils/MikTeX/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on cpb_exam_1_2.pdf (2 pages, 120382 bytes).
+ <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk><C:/Utils/
+MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Utils/MikTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Utils/MikTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Utils/MikTeX/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb>
+Output written on cpb_exam_1_2.pdf (5 pages, 148756 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
