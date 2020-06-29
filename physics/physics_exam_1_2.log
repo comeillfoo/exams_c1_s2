@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  19 JUN 2020 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  29 JUN 2020 04:04
 entering extended mode
 **./physics_exam_1_2.tex
 (physics_exam_1_2.tex
@@ -470,33 +470,95 @@ G,.JBIG2,.JB2,.eps]
 (C:\Utils\MikTeX\tex/latex/ucs\uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-6.
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
-(C:\Utils\MikTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+ []
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 
 (C:\Utils\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 
 (C:\Utils\MikTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1281) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 1028) in paragraph at lines 68--70
+\T2A/cmr/m/n/10.95 Магнитный поток $[][]\OML/cmm/m/it/10.95 c$ \T2A/cmr/m/n/10.
+95 называют \T2A/cmr/m/it/10.95 потоком самоиндукции контура\T2A/cmr/m/n/10.95 
+. Если контур находится в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+[2]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+11.
+ (C:\Utils\MikTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+
+Underfull \hbox (badness 1281) in paragraph at lines 124--125
 \T2A/cmr/m/n/10.95 оптической оси, которые близки к этой оси. Сферическая аберр
 ация в одном из примеров
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 39--40
+Underfull \hbox (badness 2261) in paragraph at lines 124--125
 \T2A/cmr/m/n/10.95 применения сферического вогнутого зеркала, зеркально-линзово
 м телескопе системы Дмитрия
  []
@@ -504,102 +566,105 @@ Underfull \hbox (badness 2261) in paragraph at lines 39--40
 (C:\Utils\MikTeX\tex/latex/ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
  \T2A/cmr/bx/n/10.95 Ход лучей в сферическом зеркале[] \T2A/cmr/m/n/10.95 Проще
  всего построить изображение отрезка,
  []
 
-[1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<assets/mirrors/sphere_mirror1.png, id=12, 401.5pt x 321.2pt>
+[3]
+<assets/mirrors/sphere_mirror1.png, id=24, 401.5pt x 321.2pt>
 File: assets/mirrors/sphere_mirror1.png Graphic file (type png)
 <use assets/mirrors/sphere_mirror1.png>
 Package pdftex.def Info: assets/mirrors/sphere_mirror1.png  used on input line 
-64.
+149.
 (pdftex.def)             Requested size: 135.31064pt x 108.25084pt.
-<assets/mirrors/sphere_mirror2.png, id=14, 321.2pt x 321.2pt>
+<assets/mirrors/sphere_mirror2.png, id=26, 321.2pt x 321.2pt>
 File: assets/mirrors/sphere_mirror2.png Graphic file (type png)
 <use assets/mirrors/sphere_mirror2.png>
 Package pdftex.def Info: assets/mirrors/sphere_mirror2.png  used on input line 
-67.
+152.
 (pdftex.def)             Requested size: 135.31064pt x 135.31477pt.
-<assets/mirrors/sphere_mirror3.png, id=15, 431.6125pt x 249.93375pt>
+<assets/mirrors/sphere_mirror3.png, id=27, 431.6125pt x 249.93375pt>
 File: assets/mirrors/sphere_mirror3.png Graphic file (type png)
 <use assets/mirrors/sphere_mirror3.png>
 Package pdftex.def Info: assets/mirrors/sphere_mirror3.png  used on input line 
-70.
+155.
 (pdftex.def)             Requested size: 135.31064pt x 78.35199pt.
-<assets/mirrors/sphere_mirror4.png, id=16, 271.0125pt x 252.945pt>
+<assets/mirrors/sphere_mirror4.png, id=28, 271.0125pt x 252.945pt>
 File: assets/mirrors/sphere_mirror4.png Graphic file (type png)
 <use assets/mirrors/sphere_mirror4.png>
 Package pdftex.def Info: assets/mirrors/sphere_mirror4.png  used on input line 
-73.
+158.
 (pdftex.def)             Requested size: 135.31064pt x 126.29465pt.
 
-Underfull \hbox (badness 4518) in paragraph at lines 77--78
+Underfull \hbox (badness 4518) in paragraph at lines 162--163
  \T2A/cmr/bx/n/10.95 В выпуклом (выгнутом) сферическом зеркале[] \T2A/cmr/m/n/1
 0.95 Построение изображения в выпуклом
  []
 
-<assets/mirrors/sphere_mirror5.png, id=17, 430.60875pt x 279.0425pt>
+<assets/mirrors/sphere_mirror5.png, id=29, 430.60875pt x 279.0425pt>
 File: assets/mirrors/sphere_mirror5.png Graphic file (type png)
 <use assets/mirrors/sphere_mirror5.png>
 Package pdftex.def Info: assets/mirrors/sphere_mirror5.png  used on input line 
-90.
+175.
 (pdftex.def)             Requested size: 270.62128pt x 175.37192pt.
 
-Underfull \hbox (badness 2469) in paragraph at lines 87--92
+Underfull \hbox (badness 2469) in paragraph at lines 172--177
 []\T2A/cmr/m/n/10.95 Таким образом, верхней точкой изображения будет точка пере
 сечения продолжения первого
  []
 
-<assets/mirrors/plane_mirror.png, id=18, 79.497pt x 54.2025pt>
+<assets/mirrors/plane_mirror.png, id=30, 79.497pt x 54.2025pt>
 File: assets/mirrors/plane_mirror.png Graphic file (type png)
 <use assets/mirrors/plane_mirror.png>
-Package pdftex.def Info: assets/mirrors/plane_mirror.png  used on input line 98
-.
+Package pdftex.def Info: assets/mirrors/plane_mirror.png  used on input line 18
+3.
 (pdftex.def)             Requested size: 270.62128pt x 184.57881pt.
-[2 <./assets/mirrors/sphere_mirror1.png> <./assets/mirrors/sphere_mirror2.png> 
+[4 <./assets/mirrors/sphere_mirror1.png> <./assets/mirrors/sphere_mirror2.png> 
 <./assets/mirrors/sphere_mirror3.png> <./assets/mirrors/sphere_mirror4.png>]
-<assets/mirrors/two_mirrors1.png, id=26, 171.64125pt x 143.53625pt>
+<assets/mirrors/two_mirrors1.png, id=38, 171.64125pt x 143.53625pt>
 File: assets/mirrors/two_mirrors1.png Graphic file (type png)
 <use assets/mirrors/two_mirrors1.png>
-Package pdftex.def Info: assets/mirrors/two_mirrors1.png  used on input line 11
-0.
+Package pdftex.def Info: assets/mirrors/two_mirrors1.png  used on input line 19
+5.
 (pdftex.def)             Requested size: 270.62128pt x 226.32921pt.
 
 (C:\Utils\MikTeX\tex/latex/ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<assets/mirrors/two_mirrors2.png, id=27, 758.835pt x 291.0875pt>
+<assets/mirrors/two_mirrors2.png, id=39, 758.835pt x 291.0875pt>
 File: assets/mirrors/two_mirrors2.png Graphic file (type png)
 <use assets/mirrors/two_mirrors2.png>
-Package pdftex.def Info: assets/mirrors/two_mirrors2.png  used on input line 11
-8.
+Package pdftex.def Info: assets/mirrors/two_mirrors2.png  used on input line 20
+3.
 (pdftex.def)             Requested size: 270.62128pt x 103.80981pt.
- [3 <./assets/mirrors/sphere_mirror5.png> <./assets/mirrors/plane_mirror.png>] 
-[4 <./assets/mirrors/two_mirrors1.png> <./assets/mirrors/two_mirrors2.png>] [5]
+ [5 <./assets/mirrors/sphere_mirror5.png> <./assets/mirrors/plane_mirror.png>] 
+[6 <./assets/mirrors/two_mirrors1.png> <./assets/mirrors/two_mirrors2.png>] [7]
  (physics_exam_1_2.aux) ) 
 Here is how much of TeX's memory you used:
- 5845 strings out of 492450
- 71090 string characters out of 3135328
- 141111 words of memory out of 3000000
- 10102 multiletter control sequences out of 15000+200000
- 11546 words of font info for 36 fonts, out of 3000000 for 9000
+ 5857 strings out of 492450
+ 71220 string characters out of 3135328
+ 142111 words of memory out of 3000000
+ 10108 multiletter control sequences out of 15000+200000
+ 14958 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,32p,1439b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,32p,1439b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\M
-iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk><C:/Utils
-/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Utils/MikTeX/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cm
-r8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Utils/Mik
-TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on physics_exam_1_2.pdf (5 pages, 402271 bytes).
+/pk/ljfour/lh/lh-t2a/dpi600\lati1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\РґРЅСЃСѓС„Р°\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\User
+s\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm10
+95.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2
+a/dpi600\labx1440.pk><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Utils/MikTeX/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Utils/MikTeX/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Utils/MikTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on physics_exam_1_2.pdf (7 pages, 464182 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 288 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
