@@ -142,6 +142,46 @@
 		$$
 		Формула для вычисления $I_n$ называется \textit{рекуррентной} (возвратной) формулой. Название объясняется тем, что для вычисления $I_n$ приходится возвращаться к $I_{n - 1},$ от него ~--- к $I_{n - 2}$ и т.д.
 	\end{enumerate}
+	\section{Интегрирование дробно-линейных иррациональностей}
+	\section{Интегрирование дифференциальных биномов}
+	Интегралы вида $\int x^m (a + bx^n)^p\, dx$, где $a, b$ ~--- действительные числа, $m, n, p$ ~--- рациональные числа, называются \textit{интегралами от дифференциального бинома} $x^m (a + bx^n)^p\, dx$ и выражаются через элементарные функции только в следующих трех случаях:
+	\begin{itemize}
+		\item если $p$ ~--- целое число, то применяется подстановка $x = t^k$, где $k$ ~--- общий знаменатель дробей $m$ и $n$;
+		\item если $\frac{m + 1}{n}$ ~--- целое число, то используется подстановка $a + bx^n = t^k$, где $k$ ~--- знаменатель дроби $p$;
+		\item если $\frac{m + 1}{n} + p$ ~--- целое число, то применяется подстановка $ax^{-n} + b = t^k$, где $k$ ~--- знаменатель дроби $p$;
+	\end{itemize}
+	\section{Интегрирование квадратичных иррациональностей}
+	Интегралы вида $\int R(x, \sqrt{a^2 - x^2})\, dx$, $\int R(x, \sqrt{a^2 + x^2})\, dx$, $\int R(x, \sqrt{x^2 - a^2})\, dx$. Применяются следующие тригонометрические подстановки: $x = a\sin t$ для первого интеграла, $x = a\tan t$ для второго интеграла и $x = \frac{a}{\sin t}$ ~--- для третьего интеграла.
+
+	Интегралы вида $\int R(x, \sqrt{ax^2 + bx + c})\, dx$ приводятся к предыдущим выделением под радикалом полного квадрата и подстановкой $x + \frac{b}{2a} = t$
+	\section{Интегрирование тригонометрических функций}
+	\begin{description}
+		\item[Универсальная тригонометрическая подстановка] Вычисление интегралов типа $\int R(\sin x, \cos x)\, dx$ осуществляется с помощью подстановки $t = \tan\frac{x}{2}$, которая называется \textit{универсальной}:
+		\begin{align}
+			\sin x = \frac{2\tan\frac{x}{2}}{1 + \tan^2\frac{x}{2}} = \frac{2t}{1 + t^2}, & \cos x = \frac{1 - \tan^2\frac{x}{2}}{1 + \tan^2\frac{x}{2}} = \frac{1 - t^2}{1 + t^2},\\
+			x = 2\arctg t, & dx = \frac{2}{1 + t^2} dt
+		\end{align}
+		Поэтому получаем $\int R(\sin x, \cos x) dx = \int R(\frac{2t}{1 + t^2};\frac{1 - t^2}{1 + t^2})\cdot \frac{2}{1 + t^2}dt$.
+		\item[Другие тригонометрические подстановки] На практике также применяют следующие более простые подстановки:
+		\begin{itemize}
+			\item если $R(-\sin x; \cos x) = -R(\sin x; \cos x)$, то $t = \cos x$
+			\item если $R(\sin x; -\cos x) = -R(\sin x; \cos x)$, то $t = \sin x$
+			\item если $R(-\sin x; -\cos x) = R(\sin x; \cos x)$, то $t = \tan x$
+		\end{itemize}
+		\item[Интегралы типа $\int\sin^m x\cdot\cos^n x\, dx$] Для нахождения таких интегралов используются следующие приемы:
+		\begin{itemize}
+			\item подстановка $t = \sin x$, если $n$ ~--- целое положительное нечетное число;
+			\item подстановка $t = \cos x$, если $m$ ~--- целое положительное нечетное число;
+			\item используются формулы понижения степени, если $m$ и $n$ ~--- целые неотрицательные четные числа;
+			\item подстановка $t = \tan x$, если $m + n$ ~--- четное отрицательное целое число;
+		\end{itemize}
+		\item[Использование тригонометрических преобразований] Интегралы типа $\int\sin ax\cdot\cos bx\, dx$, $\int\cos ax\cdot\cos bx\, dx$, $\int\sin ax\cdot\sin bx\, dx$ вычисляются с помощью формул тригонометрии:
+		\begin{align}
+			\sin\alpha\cdot\cos\beta = \frac{1}{2}[\sin (\alpha - \beta) + \sin (\alpha + \beta)],\\
+			\cos\alpha\cdot\cos\beta = \frac{1}{2}[\cos (\alpha - \beta) + \cos (\alpha + \beta)],\\
+			\sin\alpha\cdot\sin\beta = \frac{1}{2}[\cos (\alpha - \beta) - \cos (\alpha + \beta)],
+		\end{align}
+	\end{description}
 	\section{Определенный интеграл и его свойства}
 	Пусть функция $f(x)$ определена на отрезке $[a, b]$ и $F(x)$ ~--- ее первообразная. Положим
 	$$
@@ -184,7 +224,7 @@
 	\paragraph{Теорема Барроу}
 	Пусть $f\in \mathbb{R}(a, b)$ и непрерывна в $x_0\in (a, b)$. Тогда $F$ дифференцируема в этой точке и ее производная равна $F'(x_0) = f(x_0)$.
 	$$
-		F'(x_0) = \lim\limits_{\Delta x\to 0}\frac{F(x_0 + \Delta x) - F(x_0)}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{\int\limits_{x_0}^{x_0 + \Delta x}f(x) dt - \int\limits_a^{x_0} f(t) dt}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{\int_x^{\Delta x} f(t) dt}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{f(x_0) \Delta x}{\Delta x} = f(x_0)
+		F'(x_0) = \lim\limits_{\Delta x\to 0}\frac{F(x_0 + \Delta x) - F(x_0)}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{\int\limits_a^{x_0 + \Delta x}f(t) dt - \int\limits_a^{x_0} f(t) dt}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{\int_{x_0}^{x_0 + \Delta x} f(t) dt}{\Delta x} = \lim\limits_{\Delta x\to 0}\frac{f(x_0) \Delta x}{\Delta x} = f(x_0)
 	$$
 	\section{Формула Ньютона-Лейбница}
 	$$

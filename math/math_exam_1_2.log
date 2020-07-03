@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  25 JUN 2020 01:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  3 JUL 2020 17:22
 entering extended mode
 **./math_exam_1_2.tex
 (math_exam_1_2.tex
@@ -415,18 +415,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
  []
 
 [2] [3]
-Overfull \hbox (7.06459pt too wide) detected at line 188
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+49.
+ (C:\Utils\MikTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
+
+Underfull \hbox (badness 2846) in paragraph at lines 159--160
+[]\T2A/cmr/m/n/10.95 Вычисление интегралов типа $[] \OML/cmm/m/it/10.95 R\OT1/c
+mr/m/n/10.95 ([] \OML/cmm/m/it/10.95 x; [] x\OT1/cmr/m/n/10.95 ) \OML/cmm/m/it/
+10.95 dx$
+ []
+
+[4]
+Overfull \hbox (20.32314pt too wide) detected at line 228
 \OML/cmm/m/it/10.95 F[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/
 10.95 ) = [] [] = [] [] = [] [] = [] [] = \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.
 95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )
  []
 
-[4] [5] (math_exam_1_2.aux) ) 
+[5] [6] (math_exam_1_2.aux) ) 
 Here is how much of TeX's memory you used:
- 3776 strings out of 492450
- 43282 string characters out of 3135328
+ 3794 strings out of 492450
+ 43558 string characters out of 3135328
  123123 words of memory out of 3000000
- 8114 multiletter control sequences out of 15000+200000
+ 8129 multiletter control sequences out of 15000+200000
  14029 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,14n,31p,981b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -444,9 +459,9 @@ amsfonts/cm/cmr8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Utils/MikTeX/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on math_exam_1_2.pdf (5 pages, 190320 bytes).
+Output written on math_exam_1_2.pdf (6 pages, 198138 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
+ 269 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
