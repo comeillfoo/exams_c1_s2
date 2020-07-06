@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  28 JUN 2020 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  6 JUL 2020 06:23
 entering extended mode
 **./cpb_exam_1_2.tex
 (cpb_exam_1_2.tex
 LaTeX2e <2019-10-01> patch level 3
 (C:\Utils\MikTeX\tex/latex/base\article.cls
 Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
-(C:\Utils\MikTeX\tex/latex/base\size11.clo
-File: size11.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+(C:\Utils\MikTeX\tex/latex/base\size10.clo
+File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -384,7 +384,8 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
-) (cpb_exam_1_2.aux)
+)
+No file cpb_exam_1_2.aux.
 \openout1 = `cpb_exam_1_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -401,7 +402,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-
 (C:\Utils\MikTeX\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
@@ -467,78 +467,132 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+19.
+
+(C:\Utils\MikTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+(C:\Utils\MikTeX\tex/latex/ucs\uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+Overfull \hbox (25.619pt too wide) in paragraph at lines 52--52
+[]\T2A/cmtt/m/n/10 ./;;;;;;;;;;;;;;;;;;/_",;;;,';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;; ,;;| |:|. . ./;;;;;;;;|;;;|;;;;;;|-,,[] 
+ []
+
+
+Overfull \hbox (25.619pt too wide) in paragraph at lines 52--52
+[]\T2A/cmtt/m/n/10 ;;;;;;;;;;;;;;;;;,-'...|;;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;; ;;;;;| |:|._,-';;;;;;;;;|;;;;|;;;;;;;;[] 
+ []
+
+
+Overfull \hbox (25.619pt too wide) in paragraph at lines 52--52
+[]\T2A/cmtt/m/n/10 ;;;;;;;;;;;;;;,-'....,';;,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;; ;;;;;;;;|.|:|::::"'~-~"'||;;;;;|;;;;;;;;;[] 
+ []
+
+
+Overfull \hbox (25.619pt too wide) in paragraph at lines 52--52
+[]\T2A/cmtt/m/n/10 ;;;;;;;;;;;;;,'....../;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;; ;;|.|:|::::::::::::::|;;;;;',;;;;;;[] 
+ []
+
+
+Overfull \hbox (25.619pt too wide) in paragraph at lines 52--52
+[]\T2A/cmtt/m/n/10 ;;;;;;;;;;,-'......,';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; ;;;;;;;;;;;;|:|:|::::::::::::::',;;;;;;|_""~-[] 
+ []
+
+
+Overfull \hbox (25.619pt too wide) in paragraph at lines 52--52
+[]\T2A/cmtt/m/n/10 ;;;;;;;;;,'......../;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;; ;;;;|:|:|:::::::::::::::|;;;;;;|.....[] 
+ []
+
+
+Overfull \hbox (25.619pt too wide) in paragraph at lines 52--52
+[]\T2A/cmtt/m/n/10 ;;;;;;;;/.......,-';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; ;;;;;;;|:|:|:::::::::::::::|;;;;;|..........[] 
+ []
+
 (C:\Utils\MikTeX\tex/latex/ucs\uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-5.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
+9.
 
 (C:\Utils\MikTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
 
 (C:\Utils\MikTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
 (C:\Utils\MikTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 1852) in paragraph at lines 36--37
-\T2A/cmr/m/n/10.95 отражающий текущее состояние процессора. Регистр флагов соде
-ржит группу флагов состояния
- []
+) [1
 
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Command \CYRS invalid in math mode on input line 38.
+LaTeX Warning: Command \CYRS invalid in math mode on input line 72.
 
 Missing character: There is no С in font cmr10!
-
-Underfull \hbox (badness 1769) in paragraph at lines 39--40
-\T2A/cmr/m/n/10.95 и вычитания, если результат не помещается в формате, при это
-м и операнды и результат
+[2]
+Underfull \hbox (badness 3354) in paragraph at lines 113--114
+[]\T2A/cmr/m/n/10 Связав различные события с разными перепадами (фронтами и спа
+дами), можно достичь требуемой
  []
 
-[1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (22.91254pt too wide) in paragraph at lines 84--102
-[][] 
+Underfull \hbox (badness 1117) in paragraph at lines 119--120
+\T2A/cmr/m/n/10 входные значения. Такую схему можно сконструировать издвух вент
+илей НЕ-ИЛИ (НЕ-И). В отличии от
  []
 
-[3] [4]
-Underfull \hbox (badness 1337) in paragraph at lines 119--120
-\T2A/cmr/bx/n/10.95 файла\T2A/cmr/m/n/10.95 , которые идентифицирует файл при п
-оследующих вызовах (к слову, дескрипторы 0, 1, 2
+[3]
+Underfull \hbox (badness 1087) in paragraph at lines 139--140
+[]\T2A/cmr/m/n/10 Машины PDP-11 использовались практически во всех компьютерных
+ научных отделах университетов, но
  []
 
-[5] (cpb_exam_1_2.aux) ) 
+[4] [5]
+Underfull \hbox (badness 1308) in paragraph at lines 187--191
+\T2A/cmr/m/n/10 командные интерпретаторы, которые могут представлять собой само
+стоятельные языки программирования с
+ []
+
+[6] [7] (cpb_exam_1_2.aux) ) 
 Here is how much of TeX's memory you used:
- 5053 strings out of 492450
- 61568 string characters out of 3135328
- 143111 words of memory out of 3000000
- 9324 multiletter control sequences out of 15000+200000
- 13152 words of font info for 38 fonts, out of 3000000 for 9000
+ 5315 strings out of 492450
+ 64839 string characters out of 3135328
+ 145090 words of memory out of 3000000
+ 9585 multiletter control sequences out of 15000+200000
+ 11372 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,32p,2092b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\Mi
-KTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1095.pk> <C:\Users\РґРЅСЃСѓС„Р°\A
-ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk><C:/Utils/
-MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Utils/MikTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Utils/MikTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Utils/MikTeX/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb>
-Output written on cpb_exam_1_2.pdf (5 pages, 148756 bytes).
+ 55i,10n,32p,2154b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Loca
+l\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\РґРЅСЃСѓС„
+Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\U
+sers\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lab
+x1440.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\latt1000.pk><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Utils/MikTeX/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Utils/MikTeX/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on cpb_exam_1_2.pdf (7 pages, 179753 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
+ 361 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
