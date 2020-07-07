@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  6 JUL 2020 06:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.6)  8 JUL 2020 01:38
 entering extended mode
 **./cpb_exam_1_2.tex
 (cpb_exam_1_2.tex
@@ -361,6 +361,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2855.
 LaTeX Info: Redefining \] on input line 2856.
 )
+(C:\Utils\MikTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box29
+\sift@deathcycles=\count103
+\@vwid@loff=\dimen115
+\@vwid@roff=\dimen116
+)
 (C:\Utils\MikTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -382,10 +389,9 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (C:\Utils\MikTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen115
-\Gin@req@width=\dimen116
-)
-No file cpb_exam_1_2.aux.
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+) (cpb_exam_1_2.aux)
 \openout1 = `cpb_exam_1_2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -402,21 +408,22 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
+
 (C:\Utils\MikTeX\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 (C:\Utils\MikTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen117
-\scratchbox=\box29
-\nofMPsegments=\count104
-\nofMParguments=\count105
+\scratchcounter=\count104
+\scratchdimen=\dimen119
+\scratchbox=\box30
+\nofMPsegments=\count105
+\nofMParguments=\count106
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen118
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen120
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks27
 ) (C:\Utils\MikTeX\tex/latex/oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -546,16 +553,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: Command \CYRS invalid in math mode on input line 72.
 
 Missing character: There is no С in font cmr10!
+
+LaTeX Warning: Command \CYRS invalid in math mode on input line 72.
+
+Missing character: There is no С in font cmr10!
 [2]
 Underfull \hbox (badness 3354) in paragraph at lines 113--114
 []\T2A/cmr/m/n/10 Связав различные события с разными перепадами (фронтами и спа
 дами), можно достичь требуемой
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 119--120
-\T2A/cmr/m/n/10 входные значения. Такую схему можно сконструировать издвух вент
-илей НЕ-ИЛИ (НЕ-И). В отличии от
  []
 
 [3]
@@ -570,29 +575,79 @@ Underfull \hbox (badness 1308) in paragraph at lines 187--191
 стоятельные языки программирования с
  []
 
-[6] [7] (cpb_exam_1_2.aux) ) 
+[6]
+Underfull \hbox (badness 2096) in paragraph at lines 230--230
+\T2A/cmr/bx/n/14.4 стандартизации, сопряжения с системной шиной, циклы обмена.
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 237--238
+[]\T2A/cmr/m/n/10 (частота, набор каналов
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 237--238
+\T2A/cmr/m/n/10 передачи, способ кодирования, команды, представления данных, на
+бор данных и последовательность...)
+ []
+
+
+Overfull \hbox (51.72496pt too wide) in paragraph at lines 239--240
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+[]\T2A/cmr/m/n/10 (определяет несущие части передачи) (в компьютерах в основном
+
+ []
+
+[7]
+Underfull \hbox (badness 1314) in paragraph at lines 248--249
+\T2A/cmr/m/n/10 в интерфейсах ввода-вывода, типы контроллеров ВУ, способы перед
+ачи информации по шинам интерфейса
+ []
+
+<assets/images/ctrlod.png, id=35, 529.22719pt x 329.73187pt>
+File: assets/images/ctrlod.png Graphic file (type png)
+<use assets/images/ctrlod.png>
+Package pdftex.def Info: assets/images/ctrlod.png  used on input line 271.
+(pdftex.def)             Requested size: 270.62128pt x 168.6088pt.
+
+Underfull \hbox (badness 1558) in paragraph at lines 275--276
+ \T2A/cmr/bx/n/10 Приемопередатчики шин адреса и данных[] \T2A/cmr/m/n/10 Служа
+т для физического подключения электронных схем
+ []
+
+[8 <./assets/images/ctrlod.png>]
+Underfull \hbox (badness 4752) in paragraph at lines 285--286
+ \T2A/cmr/bx/n/10 Регистры контроллера[] \T2A/cmr/m/n/10 При разработке микропр
+оцессора и системного интерфейса достаточно трудно
+ []
+
+[9] (cpb_exam_1_2.aux) ) 
 Here is how much of TeX's memory you used:
- 5315 strings out of 492450
- 64839 string characters out of 3135328
- 145090 words of memory out of 3000000
- 9585 multiletter control sequences out of 15000+200000
+ 5379 strings out of 492450
+ 65872 string characters out of 3135328
+ 145814 words of memory out of 3000000
+ 9640 multiletter control sequences out of 15000+200000
  11372 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,32p,2154b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fo
-nts/pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Loca
-l\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\РґРЅСЃСѓС„
-Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\U
-sers\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lab
-x1440.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh
--t2a/dpi600\latt1000.pk><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Utils/MikTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Utils/MikTeX/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on cpb_exam_1_2.pdf (7 pages, 179753 bytes).
+ <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\lati1000.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\РґРЅСЃСѓС„Р°\A
+ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users
+\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx144
+0.pk> <C:\Users\РґРЅСЃСѓС„Р°\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a
+/dpi600\latt1000.pk><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Utils/MikTeX/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb><C:/Utils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+tils/MikTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on cpb_exam_1_2.pdf (9 pages, 265272 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
+ 411 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
